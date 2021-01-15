@@ -11,6 +11,7 @@
 import Navbar from "./components/navbar.vue";
 import Login from "./views/login.vue";
 import Home from "./views/home";
+import Add from "./views/add"
 
 export default {
   data() {
@@ -22,6 +23,7 @@ export default {
     Navbar,
     Login,
     Home,
+    Add
   },
   methods: {
     changeIsLogin(value){

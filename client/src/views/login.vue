@@ -39,7 +39,7 @@
                 </div>
                 <br />
                 <div class="group">
-                  <button type="submit" class="button" @click="login()">
+                  <button type="submit" class="button" @click.prevent="login()">
                     Sign in
                   </button>
                 </div>
@@ -84,13 +84,13 @@
                 </div>
                 <br />
                 <div class="group">
-                  <button type="submit" class="button" @click="register()">
+                  <button type="submit" class="button" @click.prevent="register()">
                     Sign up
                   </button>
                 </div>
                 <div class="foot">
                   <label for="tab-1">Already Member?</label>
-                </div>
+                </div>             
               </div>
             </div>
           </div>
